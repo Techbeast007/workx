@@ -1,0 +1,1302 @@
+.section1-coaching-matters {
+  background: #213F47 0% 0% no-repeat padding-box !important;
+  border-radius: 45px 45px 0px 0px;
+  opacity: 1;
+  min-width: 100vw !important;
+  margin-top:60px
+}
+
+/* Card and Form in the First Column */
+.section1-coaching-matters-card {
+  border-radius: 23px;
+  background: #00FFFF45 0% 0% no-repeat padding-box !important;
+  box-shadow: 0px 3px 50px #00000054;
+  align-items: left;
+}
+
+.section1-coaching-matters-heading {
+  margin-bottom: -18px;
+  text-align: left;
+  font: normal normal bold 55px/83px Poppins;
+  letter-spacing: 0px;
+  color: #FF8000;
+  opacity: 1;
+}
+
+.section1-coaching-matters-subheading {
+  margin-bottom: 30px;
+  /* UI Properties */
+text-align: left;
+font: normal normal bold 35px/65px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.section1-coaching-matters-description {
+  margin-bottom: 20px;
+  text-align: left;
+  font: normal normal normal 14px/24px Poppins;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-right: 55px;
+}
+/* Inline form styling */
+.section1-coaching-matters-form {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Space out the form elements */
+  gap: 10px; /* Add space between form elements */
+}
+
+.section1-coaching-matters-form-group {
+  flex-grow: 1; /* Allow input fields to grow */
+  margin-bottom: 0; /* Remove bottom margin for form elements */
+}
+
+.section1-coaching-matters-input {
+  width: 100%; /* Ensure input fields take up full width */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+
+}
+.section1-coaching-matters-input::placeholder{
+  /* UI Properties */
+text-align: left;
+font: normal normal 300 13px/20px Poppins;
+letter-spacing: 0px;
+color: #000000A1;
+opacity: 1;
+}
+
+.xsection1-coaching-matters-btn {
+/* UI Properties */
+background: #F15A25 0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+opacity: 1;
+}
+
+/* Responsive form: stack on small screens */
+@media (max-width: 768px) {
+  .section1-coaching-matters-form {
+    flex-wrap: wrap; /* Allows the form to stack on smaller screens */
+  }
+
+}
+
+/* Responsive form: stack on small screens */
+@media (max-width: 768px) {
+  .section1-coaching-matters-form {
+    flex-wrap: wrap; /* Allows the form to stack on smaller screens */
+  }
+
+  .section1-coaching-matters-form-group,
+  .section1-coaching-matters-btn {
+    flex-basis: 100%; /* Makes each element take full width on small screens */
+  }
+}
+
+/* Cards in the Second Column */
+.section1-coaching-matters-card-item .card {
+  border-radius: 8px;
+}
+
+/* Ensure consistent height and width for image cards and the first card */
+.section1-coaching-matters-image-card,
+.section1-coaching-matters-card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Set image card sizes equal to the first card's size */
+.section1-coaching-matters-image-card img {
+  height: 100%; /* Makes sure images fill the card's height */
+  width: 100%; /* Ensures images fill the card's width */
+  object-fit: cover; /* Keeps the image aspect ratio */
+
+  
+} 
+
+  .section1-coaching-matters-image {
+    min-width: 233px !important;
+    height: 267px !important;
+  
+}
+
+
+
+/* Second Row with Dividers */
+
+  .section1-coaching-matters-info-row .section1-coaching-matters-info-col {
+    padding: 1px 25px;
+    width: 15.333333%;
+}
+
+
+.section1-coaching-matters-info-heading {
+
+text-align: left;
+font: normal normal normal 32px/38px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.section1-coaching-matters-info-description {
+  font-size: 1rem;
+
+  /* UI Properties */
+text-align: left;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.section1-coaching-matters-divider {
+  width: 3px #F15A25;
+  background-color: #F15A25 !important;
+  top: 0;
+  left: 50%;
+}
+
+
+
+
+/* General styling for the section */
+.coaching-matters-section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.coaching-matters-section2-divider {
+  height: 12px;
+
+  margin: 0 20px;
+  width: 189px;
+  background: #F15A25 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  opacity: 0.12;
+}
+
+.coaching-matters-section2-image-box {
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 245px;
+}
+
+.coaching-matters-section2-center-image {
+  max-width: 100%; /* Makes sure the image is responsive */
+  height: auto;
+  display: block;
+}
+
+
+/* General styling for the section */
+.coaching-matters-section3 {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+/* Card Container */
+.coaching-matters-section3-container {
+  position: relative;
+  max-width: 600px; /* Set a max width for the card container */
+  width: 100%;
+}
+
+/* Individual Card */
+.coaching-matters-section3-card {
+  position: relative;
+  padding: 30px;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+/* UI Properties */
+background:url("Group\ 96\ \(1\).png");
+mix-blend-mode: multiply;
+border: 1px solid #707070;
+border-radius: 23px;
+}
+
+/* Card Heading */
+.coaching-matters-section3-card-heading {
+
+  /* UI Properties */
+text-align: left;
+font: normal normal bold 52px/68px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+/* Card Description */
+.coaching-matters-section3-card-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Button with Rounded Border */
+.coaching-matters-section3-card-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #007bff; /* Rounded border */
+  border-radius: 30px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect on the button */
+.coaching-matters-section3-card-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Image that overlaps the card */
+.coaching-matters-section3-card-image-container {
+  position: absolute;
+  top: 20px; /* Adjust top position to align with card */
+  right: -30px; /* Adjust this value to control how much of the image sticks out */
+}
+
+.coaching-matters-section3-card-image {
+  max-width: 500px; /* Adjust the image size */
+  height: auto;
+  border-radius: 10px; /* Optional: rounded corners for the image */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* General styling for the section */
+.coaching-matters-section3 {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+/* Card Container */
+.coaching-matters-section3-container {
+  position: relative;
+  max-width: 1175px; /* Set max width for the card container */
+  width: 100%;
+}
+
+/* Individual Card */
+.coaching-matters-section3-card {
+  position: relative;
+  width: 1175px; /* Set width to 1175px */
+  height: 687px; /* Set height to 687px */
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff; /* Optional: set background color */
+  text-align: left; /* Align text to the left */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+
+
+.coaching-matters-section3-card-description {
+  text-align: left;
+  font: normal normal normal 16px/24px Poppins;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  width: 53%;
+  margin: 60px 0px;
+}
+/* Button with Rounded Border */
+.coaching-matters-section3-card-btn {
+  display: inline-block;
+  /* UI Properties */
+border: 2px solid #FFFFFF;
+border-radius: 35px;
+opacity: 1;
+color: white;
+}
+
+/* Hover effect on the button */
+.coaching-matters-section3-card-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Image that overlaps the card */
+.coaching-matters-section3-card-image-container {
+  position: absolute;
+  top: 20px; /* Adjust top position to align with card */
+  right: -30px; /* Adjust this value to control how much of the image sticks out */
+}
+
+
+/* Inline Section Styling */
+.coaching-matters-section4 {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: center; /* Center content horizontally */
+  padding: 50px 0; /* Top and bottom padding */
+}
+
+/* Container for the content */
+.coaching-matters-section4-container {
+  display: flex; /* Flex container for inline layout */
+  max-width: 1175px; /* Max width for the entire section */
+  width: 100%; /* Full width */
+}
+
+/* Left Side Heading */
+.coaching-matters-section4-left {
+  flex: 1; /* Allow the heading to take equal space */
+  padding-right: 20px; /* Space between heading and description */
+}
+
+.coaching-matters-section4-right {
+  flex: 1;
+}
+
+.coaching-matters-section4-heading {
+  text-align: left;
+  font: normal normal 600 48px/95px Poppins;
+  letter-spacing: 0px;
+  color: #F15A25;
+  opacity: 1;
+}
+
+/* Description Styles */
+.coaching-matters-section4-description {
+
+text-align: left;
+font: normal normal normal 16px/25px Poppins;
+letter-spacing: 0px;
+color: #817E7E;
+opacity: 1;
+}
+
+
+/* Card Section Styling */
+.coaching-matters-section5 {
+  padding: 50px 0; /* Top and bottom padding */
+}
+
+/* Container for the card section */
+.coaching-matters-section5-container {
+  max-width: 1175px; /* Max width for the entire section */
+  margin: 0 auto; /* Center align the container */
+}
+
+/* Row for the cards */
+.coaching-matters-section5-row {
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between cards */
+  margin-bottom: 30px; /* Space between rows */
+}
+
+/* Card Styles */
+.coaching-matters-section5-card {
+  width: calc(33.33% - 20px) !important; /* Three cards per row, accounting for spacing */
+  border: 1px solid #ddd; /* Border around the card */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  position: relative; /* For positioning the rating */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Space between elements */
+}
+
+/* Card Image */
+.coaching-matters-section5-card-image {
+  position: relative; /* Relative positioning for the rating */
+}
+
+.coaching-matters-section5-card-image img {
+  width: 100%; /* Full width for the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+  object-fit: cover; /* Cover the entire area */
+}
+
+
+.coaching-matters-section5-rating {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rating-star{
+  width: 18px !important;
+  margin-right:4px;
+}
+.rating-div{
+  /* UI Properties */
+text-align: left;
+font: normal normal normal 12px/18px Poppins;
+letter-spacing: 0px;
+color: #A9A9A9;
+opacity: 1;
+margin: 0px 8px 0px 8px;
+}
+/* Heading Styles */
+.coaching-matters-section5-heading {
+  font-size: 1.5rem; /* Font size for the heading */
+  margin: 10px 0; /* Margin around the heading */
+}
+
+/* Person Info Styles */
+.coaching-matters-section5-person {
+  display: flex; /* Flexbox for person info */
+  align-items: center; /* Vertically align items */
+  margin: 10px 0; /* Margin around the person info */
+}
+
+/* Circular image for the person */
+.coaching-matters-section5-person-image {
+  width: 40px; /* Width for the circular image */
+  height: 40px; /* Height for the circular image */
+  border-radius: 50%; /* Circular image */
+  margin-right: 10px; /* Space between image and text */
+}
+
+/* Person Name and Designation */
+.coaching-matters-section5-person-info {
+  display: flex; /* Flexbox for name and designation */
+  flex-direction: column; /* Stack name and designation */
+}
+
+/* Button Styles */
+
+.coaching-matters-section5-button {
+
+  background: #FF6D1F 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border-radius: 24px;
+  opacity: 1;
+  border: 2px solid #ff7f50;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  margin-left: auto;
+  transition: background-color 0.3s, color 0.3s;
+  color: white;
+}
+
+.coaching-matters-section5-button:hover {
+  background-color: #ff7f50; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .coaching-matters-section5-row {
+    flex-direction: column; /* Stack cards vertically on small screens */
+  }
+  .coaching-matters-section5-card {
+    width: 100%; /* Full width for each card on mobile */
+    margin-bottom: 20px; /* Space between cards */
+  }
+}
+
+/* See All Sessions Section Styling */
+.coaching-matters-section6 {
+  padding: 50px 0; /* Top and bottom padding */
+  text-align: center; /* Center align text */
+}
+
+.coaching-matters-section6-container {
+  max-width: 1175px; /* Max width for the container */
+  margin: 0 auto; /* Center align the container */
+}
+
+/* Button Styles */
+.coaching-matters-section6-button {
+  /* UI Properties */
+background: #F15A25;
+
+border-radius: 24px;
+border: none;
+
+  padding: 10px 30px; /* Padding around the button */
+  cursor: pointer; /* Pointer cursor */
+
+  font-size: 1.2rem; /* Font size */
+
+  color: white;
+}
+
+.coaching-matters-section6-button:hover {
+  background-color: #ff7f50; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+/* New Section Styles */
+.coaching-matters-section7 {
+  padding: 50px 0; /* Top and bottom padding */
+  text-align: center; /* Center align text */
+}
+
+.coaching-matters-section7-container {
+  max-width: 1175px; /* Max width for the container */
+  margin: 0 auto; /* Center align the container */
+}
+
+.coaching-matters-section7-heading {
+  margin-bottom: 20px; /* Space below headings */
+  /* UI Properties */
+text-align: center;
+font: normal normal 600 64px/95px Poppins;
+letter-spacing: 0px;
+opacity: 1;
+}
+.coaching-matters-section7-subheading {
+  text-align: center;
+  font: normal normal normal 24px/35px Poppins;
+  letter-spacing: 0px;
+  color: #2E4B56;
+  opacity: 1;
+  margin-bottom: 80px;
+}
+
+.coaching-matters-section7-row {
+  display: flex; /* Flexbox for columns */
+  justify-content: center; /* Center align columns */
+}
+
+/* First Column Styles */
+.coaching-matters-section7-image-box {
+  position: relative; /* Position relative for overlay */
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow for image */
+}
+
+.coaching-matters-section7-image {
+  width: 100%; /* Full width */
+  border-radius: 15px; /* Match rounded corners */
+}
+
+
+.coaching-matters-section7-overlay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #fd7e14;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: rgba(255, 255, 255, 0.7); */
+}
+.arrow-icon{
+  transform:rotate(45deg);
+  color: #fd7e14;
+  width: 90px;
+}
+.coaching-matters-section7-points {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  font: normal normal normal 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #363636;
+  opacity: 1;
+}
+
+.coaching-matters-section7-point {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+  margin-left: 8px;
+  margin: 16px 0px 19px 52px;
+}
+.coaching-matters-section7-pointing {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: transparent linear-gradient(180deg, #f2661c 0%, #c55015 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  border-radius: 23px;
+  opacity: 1;
+  color: white;
+  transform: translateX(-10px);
+  max-width: 530px;
+  height: 100px;
+}
+.point-icon img {
+  width: 50px !important;
+  margin-right: 25px;
+}
+
+
+/* Active state for points */
+.coaching-matters-section7-point.active {
+  background-color: orange; /* Active background */
+  color: white; /* Active text color */
+  transform: translateX(-5px); /* Shift left */
+}
+
+/* New Section Styles */
+.coaching-matters-section8 {
+  padding: 50px 0; /* Top and bottom padding */
+  text-align: center; /* Center align text */
+}
+
+.coaching-matters-section8-container {
+  max-width: 1175px; /* Max width for the container */
+  margin: 0 auto; /* Center align the container */
+}
+
+.coaching-matters-section8-heading {
+  margin-bottom: 30px; /* Space below the heading */
+  /* UI Properties */
+text-align: center;
+font: normal normal 600 52px/78px Poppins;
+letter-spacing: 0px;
+color: #F15A25;
+opacity: 1;
+}
+
+
+/* Row Styles */
+.coaching-matters-section8-row {
+  display: flex; /* Flexbox for columns */
+  justify-content: center; /* Center align columns */
+}
+
+/* First Column Styles */
+.coaching-matters-section8-image-box {
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow */
+  margin-bottom: 20px; /* Space below image */
+}
+
+.coaching-matters-section8-image {
+  width: 100%; /* Full width */
+  border-radius: 15px; /* Match rounded corners */
+}
+
+
+.coaching-matters-section8-box-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 12px;
+}
+
+/* Box Styles */
+.coaching-matters-section8-box {
+  border-radius: 15px; /* Rounded corners */
+  padding: 15px; /* Padding */
+  margin-bottom: 20px; /* Space below boxes */
+  flex: 1; /* Flex-grow to fill space */
+}
+
+.coaching-matters-section8-orange-box {
+  border: 2px solid orange; /* Orange border */
+  background-color: transparent; /* Transparent background */
+}
+
+.coaching-matters-section8-left-image {
+  width: 80px; /* Width of left image */
+  border-radius: 10px; /* Rounded corners */
+  margin-right: 15px; /* Space to the right */
+}
+
+/* Name and Designation */
+.coaching-matters-section8-name-designation {
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center align items */
+}
+
+.coaching-matters-section8-name {
+  margin-right: 5px; /* Space between name and divider */
+}
+
+/* Vertical Stat Box */
+.coaching-matters-section8-vertical-box {
+  display: flex; /* Flexbox for stacking */
+  flex-direction: column; /* Stack vertically */
+  align-items: center; /* Center align */
+  margin-top: 20px; /* Space above */
+  /* UI Properties */
+mix-blend-mode: normal;
+border: 1px solid #D9D9D9;
+opacity: 1;
+
+}
+
+.coaching-matters-section8-stat {
+  text-align: center; /* Center text */
+  margin-bottom: 10px; /* Space below each stat */
+}
+
+.coaching-matters-section8-stat-number {
+  font-size: 24px; /* Larger font for number */
+  font-weight: bold; /* Bold number */
+}
+
+.coaching-matters-section8-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  background-image: url("Coaching Matters/Subtract.png");
+  background-size: cover;
+  height: 685px;
+  width: 653px;
+}
+.coaching-matters-section8-rating {
+  display: flex; /* Flexbox for rating */
+  justify-content: center; /* Center align rating */
+  align-items: center; /* Center vertically */
+  margin-bottom: 20px; /* Space below rating */
+}
+
+.star {
+  color: orange; /* Star color */
+  margin-right: 5px; /* Space to the right */
+}
+.centered-star{
+
+    /* background: orange; */
+    padding: 9px 31px;
+    margin-top: -30px;
+    background: #F15A25 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 31px #00000005;
+    mix-blend-mode: normal;
+    opacity: 1;
+    border-radius: 59px;
+
+}
+
+.coaching-matters-section8-card-heading {
+  margin-bottom: 15px;
+  text-align: left;
+  font: normal normal normal 40px/60px Poppins;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-top: 49px;
+}
+.coaching-matters-section8-card-description {
+  margin-bottom: 20px;
+  text-align: left;
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.coaching-matters-section8-learn-more {
+  color: orange;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.coaching-matters-section8-join-button {
+
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 25px; /* Rounded button */
+  padding: 10px 20px; /* Padding */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s; /* Transition for hover effect */
+  margin-top: 20px; /* Space above button */
+  display: block; /* Make button a block element */
+  width: fit-content; /* Width fit to content */
+
+  /* UI Properties */
+background: #F15A25 0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+border-radius: 24px;
+opacity: 1;
+  
+}
+
+.coaching-matters-section8-join-button:hover {
+  background-color: darkorange; /* Darken on hover */
+}
+/* Icon Box Section Styles */
+.coaching-matters-section9 {
+  padding: 50px 0; /* Top and bottom padding */
+  text-align: center; /* Center align text */
+}
+
+.coaching-matters-section9-container {
+  max-width: 1175px; /* Max width for the container */
+  margin: 0 auto; /* Center align the container */
+}
+
+.coaching-matters-section9-heading {
+  margin-bottom: 30px; /* Space below the heading */
+  /* UI Properties */
+text-align: center;
+font: normal normal 600 52px/78px Poppins;
+letter-spacing: 0px;
+color: #F15A25;
+opacity: 1;
+}
+
+/* Row Styles */
+.coaching-matters-section9-row {
+  display: flex; /* Flexbox for cards */
+  justify-content: center; /* Center align cards */
+}
+
+/* Card Styles */
+.coaching-matters-section9-card {
+  background-color: #fff; /* White background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Padding */
+  margin: 0 15px; /* Space between cards */
+  width: 300px; /* Fixed width for cards */
+  text-align: center; /* Center align text inside cards */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.coaching-matters-section9-number {
+  font-size: 24px; /* Font size for the number */
+  font-weight: bold; /* Bold text */
+  
+  position: absolute; /* Position for top left corner */
+  top: 15px; /* Distance from top */
+  left: 15px; /* Distance from left */
+}
+.coaching-matters-centered-image img{
+  position: absolute;
+  width: 172px;
+  top: 38%;
+  left: 66%;
+ 
+}
+
+.coaching-matters-section9-icon {
+  margin: 40px 0 10px; /* Space around the icon */
+}
+
+.coaching-matters-section9-icon-image {
+  width: 60px; /* Size of the icon */
+}
+
+.coaching-matters-section9-content {
+  margin: 0;
+  text-align: center;
+  font: normal normal normal 16px/35px Poppins;
+  letter-spacing: 0px;
+  color: #363636;
+  opacity: 1;
+}
+/* Icon Box Section Styles */
+.coaching-matters-section9 {
+  padding: 50px 0; /* Top and bottom padding */
+  text-align: center; /* Center align text */
+}
+
+.coaching-matters-section9-container {
+  max-width: 1175px; /* Max width for the container */
+  margin: 0 auto; /* Center align the container */
+}
+
+.coaching-matters-section9-heading {
+  margin-bottom: 30px; /* Space below the heading */
+}
+
+/* Row Styles */
+.coaching-matters-section9-row {
+  display: flex; /* Flexbox for cards */
+  justify-content: center; /* Center align cards */
+}
+
+/* Card Styles */
+.coaching-matters-section9-card {
+  background-color: #fff; /* White background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Padding */
+  margin: 0 15px; /* Space between cards */
+  width: 300px; /* Fixed width for cards */
+  text-align: center; /* Center align text inside cards */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  position: relative; /* Make position relative for absolute elements */
+}
+
+.coaching-matters-section9-number {
+  font-size: 24px; /* Font size for the number */
+  font-weight: bold; /* Bold text */
+
+  position: absolute; /* Position for top left corner */
+  top: 15px; /* Distance from top */
+  left: 15px; /* Distance from left */
+}
+
+.coaching-matters-section9-icon {
+  margin: 40px 0 10px; /* Space around the icon */
+}
+
+.coaching-matters-section9-icon-image {
+  width: 60px; /* Size of the icon */
+}
+
+
+/* Video and Webinar Registration Section Styles */
+.coaching-matters-section10 {
+  padding: 50px 0; /* Top and bottom padding */
+  
+}
+
+.coaching-matters-section10-container {
+  max-width: 1175px; /* Max width for the container */
+  margin: 0 auto; /* Center align the container */
+  display: flex; /* Flex for two columns */
+  justify-content: space-between; /* Space between columns */
+}
+
+/* Column Styles */
+.coaching-matters-section10-column1,
+.coaching-matters-section10-column2 {
+  width: 48%; /* Adjust column width */
+}
+
+/* Heading Styles */
+.coaching-matters-section10-heading {
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Video Placeholder Styles */
+.coaching-matters-section10-video-placeholder {
+  width: 100%; /* Full width */
+  height: 300px; /* Height for the video placeholder */
+  background-color: #f0f0f0; /* Light grey background */
+  border-radius: 15px; /* Rounded corners */
+  display: flex; /* Center content */
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+}
+
+/* Grid Styles */
+.coaching-matters-section10-grid {
+  display: grid; /* Grid layout */
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /* Space between cards */
+  margin-bottom: 20px; /* Space below grid */
+}
+
+.coaching-matters-section10-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.coaching-matters-section10-icon {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.coaching-matters-section10-icon-image {
+  width: 50px; /* Size of the icon */
+}
+
+/* Content Styles */
+.coaching-matters-section10-content {
+
+text-align: left;
+font: normal normal medium 24px/32px Poppins;
+letter-spacing: 0px;
+color: #292929;
+opacity: 1;
+}
+
+/* Button Styles */
+.coaching-matters-section10-register-button {
+ 
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  margin-top: 20px; /* Space above the button */
+  display: block; /* Make it a block element */
+  width: fit-content; /* Fit content width */
+  /* UI Properties */
+background: #F15A25 0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+border-radius: 24px;
+opacity: 1;
+}
+/* Get in Touch Section Styles */
+.coaching-matters-section11 {
+  padding: 40px 0; /* Top and bottom padding */
+  text-align: center; /* Center align text */
+}
+
+.coaching-matters-section11-heading {
+text-align: center;
+font: normal normal 600 64px/85px Poppins;
+letter-spacing: 0px;
+color: #363636;
+}
+
+.coaching-matters-section11-subheading {
+  font-size: 20px;
+  margin-bottom: 239px;
+  margin-Top: 40px;
+}
+
+.coaching-matters-section11-background {
+  min-width: 100vw;
+  padding: 20px;
+ 
+  position: relative;
+  max-width: 1175px;
+  margin: 0 auto;
+  background: #213F47 0% 0% no-repeat padding-box;
+
+  opacity: 1;
+}
+
+.coaching-matters-section11-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  margin-top: -208px;
+  margin-bottom: 109px;
+}
+/* Card Styles */
+.coaching-matters-section11-card {
+  background-color: white; /* White background */
+  border-radius: 5px; /* Sharp edges */
+  padding: 20px; /* Padding inside the card */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  width: 350px; /* Card width */
+  height: 465px;
+}
+
+/* Form Styles */
+.coaching-matters-section11-form {
+  display: flex; /* Flexbox for form */
+  flex-direction: column; /* Column layout */
+}
+
+.coaching-matters-section11-form label {
+  margin-bottom: 5px; /* Space below labels */
+  font-size: 16px; /* Font size for labels */
+}
+
+.coaching-matters-section11-form input {
+  margin-bottom: 15px; /* Space below input fields */
+  padding: 10px; /* Padding inside input fields */
+  border: 1px solid #ccc; /* Border for input fields */
+  border-radius: 5px; /* Rounded corners for input fields */
+  font-size: 16px; /* Font size for input fields */
+}
+
+/* Button Styles */
+.coaching-matters-section11-send-button {
+  /* UI Properties */
+background: #F15A25 0% 0% no-repeat padding-box;
+border-radius: 30px;
+opacity: 1;
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+}
+
+/* Image Styles */
+.coaching-matters-section11-image {
+  width: 350px; /* Image width */
+  display: flex; /* Flexbox to center align image */
+  justify-content: center; /* Center align image */
+}
+
+.coaching-matters-section11-image-content {
+  max-width: 100%;
+  height: 465px;
+}
+
+.coaching-matters-david {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.column-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.first-column {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.pic-col {
+  flex: 1;
+
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 10px #84B5FF80;
+  border-radius: 37px;
+  padding: 9px;
+  align-items: center;
+  display: flex;
+}
+
+.stacked-pics {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-pic, .stacked-pic {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 10px #84B5FF80;
+  border-radius: 37px;
+}
+
+.second-column {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.heading-david {
+/* UI Properties */
+text-align: left;
+font: normal normal 600 48px/72px Poppins;
+letter-spacing: 0px;
+color: #ED592C;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.subheading-david {
+/* UI Properties */
+text-align: left;
+font: normal normal medium 24px/35px Poppins;
+letter-spacing: 0px;
+color: #222E48;
+text-transform: capitalize;
+opacity: 1;
+}
+.white-container-david{
+  /* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 20px 30px #B7D4FA5C;
+opacity: 1;
+}
+
+
+  .orange-container {
+
+    padding: 20px 0px;
+    border-radius: 10px;
+    background: #ED592C 0% 0% no-repeat padding-box;
+}
+
+
+.icon-card {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 15px;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.description {
+  font-size: 16px;
+}
+
+
+.boxed-david {
+  padding: 40px;
+  /* background-color: #f9f9f9; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.boxed-david-row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1259px;
+}
+
+.boxed-david-box {
+  display: flex;
+  align-items: center;
+  /* background-color: #fff; */
+  padding: 20px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  flex: 1;
+  margin-right: 20px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 10px #84B5FF80;
+  border-radius: 37px;
+  /* opacity: 0.51; */
+}
+
+.boxed-david-box:last-child {
+  margin-right: 0;
+}
+
+.boxed-david-icon {
+  margin-right: 15px;
+}
+
+.boxed-david-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.boxed-david-description {
+ 
+    text-align: left;
+    font: medium 24px/35px Poppins;
+    letter-spacing: 0px;
+    color: #222E48;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 24px;
+    font-family: poppins;
+
+}

@@ -1,0 +1,543 @@
+*{
+    font-family: Poppins;
+}
+
+/* Hero section styles */
+.aboutus-hero-section {
+    padding: 0; /* No padding for full-width look */
+    max-width: 1800px !important;
+   
+  }
+
+
+  
+  .aboutus-container {
+    /* margin-top: 30px; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    position: relative;
+    margin-top: -99px;
+    height: 1045px;
+    background-image: url('./About us Page/Group 64.png');
+}
+  .aboutus-breadcrumb {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .aboutus-title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-align: left;
+    font: normal normal bold 76px/87px Poppins, sans-serif;
+    letter-spacing: -0.76px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+
+
+  .rowed-image {
+    /* Adjust width/height based on the container size */
+    object-fit: cover; /* Ensures the image covers the container */
+    border-radius: 37px; /* Match the card border-radius */
+}
+
+.card-rowed {
+    border: none !important ;
+
+}
+
+.rowed-image-col {
+    padding: 10px; /* Add spacing between the columns */
+}
+
+  /* Section container */
+.aboutus-section2 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 30px #B7D4FA3B;
+    padding: 50px;
+    border-radius: 80px;
+    opacity: 1;
+    margin-top: 50px;
+  }
+
+  /* Button-like structure */
+  .aboutus-section2-button {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #B3E8FF91;
+    border-radius: 13px;
+    padding: 15px 30px;
+    letter-spacing: -0.42px;
+    opacity: 1;
+    width: fit-content;
+    /* UI Properties */
+text-align: left;
+font: normal normal medium 20px/24px Poppins;
+letter-spacing: 2px;
+color: #264653;
+text-transform: uppercase;
+opacity: 1;
+  }
+  
+  /* Heading and Subheading */
+  .aboutus-section2-heading {
+    text-align: center;
+    font: normal normal 600 60px/72px Poppins, sans-serif;
+    color: #F15A25;
+    opacity: 1;
+    margin-top: 40px;
+
+  }
+  
+  .aboutus-section2-subheading {
+    text-align: center;
+    font: normal normal medium 18px/27px Poppins, sans-serif;
+    color: #667085;
+    opacity: 1;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .aboutus-section3-cards-container {
+    margin-top: 40px;
+    gap: 30px;
+}
+row aboutus-section2-cards-container{
+    gap:70px;
+}
+  /* First column (card) */
+  .aboutus-section2-card {
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 20px 30px #B7D4FA5C;
+opacity: 1;
+  }
+
+.aboutus-section2-card-heading{
+  /* UI Properties */
+text-align: left;
+font: normal normal 600 48px/54px Poppins;
+letter-spacing: 0px;
+color: #0C141D;
+opacity: 1;
+}
+
+.aboutus-section2-card-subheading{
+/* UI Properties */
+text-align: left;
+font: normal normal normal 18px/54px Poppins;
+letter-spacing: 0px;
+color: #0C141D;
+opacity: 1;
+  }
+
+  .aboutus-section2-card-description{
+     /* UI Properties */
+text-align: left;
+font: normal normal medium 18px/27px Poppins;
+letter-spacing: 0px;
+color: #264653;
+opacity: 1;
+  
+
+  }
+
+
+  /* Icon styling */
+  .aboutus-section2-icon img {
+    width: 50px;
+    height: 50px;
+  }  
+    
+
+
+
+
+/* Full-width container with background image */
+.aboutus-section3 {
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    color: #FFFFFF;
+}
+
+/* Left column styling */
+.aboutus-section3-left {
+    text-align: left;
+    padding: 20px;
+}
+
+/* Heading */
+.aboutus-section3-heading {
+    text-align: center;
+    font: normal normal bold 36px/48px Poppins, sans-serif;
+}
+
+/* Divider */
+.aboutus-section3-divider {
+    border: 1px solid #FFFFFF;
+    width: 60%;
+    margin: 20px auto;
+}
+
+/* Rating stars */
+.aboutus-section3-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.aboutus-section3-rating-value {
+    margin-left: 10px;
+    font: normal normal bold 24px/30px Poppins, sans-serif;
+}
+
+/* Right column for circles */
+.aboutus-section3-right {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the circles */
+    align-items: center; /* Center vertically */
+    padding: 20px; /* Optional padding */
+}
+
+/* Circle container for horizontal layout */
+.aboutus-section3-circle-container {
+    display: flex; /* Display circles in a row */
+    justify-content: space-between; /* Space out circles evenly */
+    width: 100%; /* Full width to utilize space */
+}
+
+.aboutus-section3-circle {
+    background: transparent;
+    border: 1px solid #7A7A7A;
+    opacity: 1;
+    border-radius: 50%;
+    width: 268px;
+    height: 268px;
+    text-align: center;
+    margin: 0 -2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+}
+/* Heading and Subheading for circles */
+.aboutus-section3-circle-heading {
+ 
+    /* UI Properties */
+text-align: left;
+font: normal normal medium 72px/84px Poppins;
+letter-spacing: 0px;
+color: #FAFAFA;
+opacity: 1;
+}
+
+.aboutus-section3-circle-subheading {
+    /* UI Properties */
+text-align: center;
+font: normal normal medium 18px/27px Manrope;
+letter-spacing: 0px;
+color: #AFAFAF;
+opacity: 1;
+}
+.aboutus-section4 {
+    max-width: 1200px; /* Fixed width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 60px 40px; /* Add padding for spacing */
+    /* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 20px 30px #B7D4FA3B;
+opacity: 1;
+margin-top: 80px;
+border-radius: 80px;
+}
+
+.aboutus-section4-left {
+    text-align: left;
+}
+
+.aboutus-section4-heading {
+    font: normal normal bold 36px/48px Poppins, sans-serif;
+    margin-bottom: 15px; /* Space below the heading */
+    margin-left: 9%;
+}
+
+.aboutus-section4-pill-image {
+    width: 100%; /* Adjust width as necessary */
+    max-width: 150px; /* Limit the size of the pill image */
+    height: 40px;
+    margin-bottom: 15px; /* Space below the pill image */
+    margin-left: 9%;
+    border-radius: 50px; /* Set to a high value for a pill shape */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+}
+
+.aboutus-section4-description {
+   /* UI Properties */
+text-align: left;
+font: normal normal medium 18px/27px Poppins;
+letter-spacing: 0px;
+color: #264653;
+opacity: 1;
+    margin-left: 9%;
+    width: 80%;
+}
+
+.aboutus-section4-right {
+    position: relative; /* Position relative to allow absolute positioning of the second image */
+    text-align: center; /* Center align the first image */
+}
+
+.aboutus-section4-first-image {
+    width: 100%; /* Adjust width as necessary */
+    max-width: 500px; /* Limit the size of the first image */
+}
+
+.aboutus-section4-second-image {
+    position: absolute; /* Positioning to overlap half in this column and half in the next */
+    left: -15%; /* Move left to create the half overlap effect */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+    width: auto; /* Let it be auto or adjust as necessary */
+    max-width: 300px; /* Limit the size of the second image */
+}
+
+
+
+.aboutus-section5 {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 60px 0;
+    background: #FFFBECB0 0% 0% no-repeat padding-box;
+    border-radius: 74px;
+    margin-top: 80px;
+}
+
+.aboutus-card {
+    margin-bottom: 30px; /* Space between cards */
+    /* UI Properties */
+    background: #FFFFFF; /* White background for the card */
+    box-shadow: 0px 20px 30px #B7D4FA5C; /* Shadow for a lifted effect */
+    opacity: 1;
+    padding: 20px; /* Add padding around the image to create a frame effect */
+    border-radius: 10px; /* Slightly rounded edges for a softer look */
+    flex: 0 0 400px !important;
+}
+
+.aboutus-card-image {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.aboutus-card-content {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F15A25;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.aboutus-card-info {
+    text-align: left; /* Left align text */
+}
+
+.aboutus-card-name {
+    margin: 0; /* Remove default margin */
+    /* UI Properties */
+text-align: left;
+font: normal normal medium 18px/48px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.aboutus-card-designation {
+
+    margin: 5px 0; /* Space above and below */
+    /* UI Properties */
+text-align: left;
+font: normal normal normal 8px/30px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+
+}
+
+.aboutus-card-icons {
+    display: flex; /* Horizontal layout for icons */
+    margin-left: auto; /* Push icons to the right */
+
+}
+
+.aboutus-card-icons i {
+    margin-left: 10px; /* Space between icons */
+    color: #F15A25; /* Icon color */
+    font-size: 20px; /* Icon size */
+}
+.svg-section5{
+    margin-left:8px;
+}
+
+.aboutus-section6 {
+    max-width: 1200px;
+    margin: -35px auto;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5F9FA;
+    margin-bottom: 80px;
+}
+.aboutus-section6-left {
+    text-align: left; /* Left align text */
+}
+
+.aboutus-section6-button {
+
+    color: black; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Slightly rounded edges */
+    display: inline-block; /* Make it block */
+    margin-bottom: 15px; /* Space below the button */
+    /* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 10px #B3E8FF91;
+border-radius: 13px;
+opacity: 1;
+}
+
+
+
+.aboutus-section6-subheading {
+    font-size: 16px; /* Subheading font size */
+}
+
+.aboutus-section6-right {
+    display: flex; /* Flexbox for horizontal alignment */
+    align-items: center; /* Align icon vertically */
+}
+.aboutus-section6-heading {
+    text-align: left;
+    font: normal normal medium 20px / 24px Poppins;
+    letter-spacing: 2px;
+    color: #264653;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 70%;
+}
+.aboutus-section6-dotted-line {
+    border-top: 2px dotted #000;
+    width: 203px;
+    margin-right: 80px;
+}
+
+.aboutus-section6-icon {
+    width: 90px; /* Set icon width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width:768px) {
+    .aboutus-section6 {
+        max-width: 1200px;
+        margin: -35px auto;
+        padding: 60px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #f5F9FA;
+        margin-bottom: 80px;
+        flex-direction: column;
+}
+.aboutus-section2-card {
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 30px #B7D4FA5C;
+    opacity: 1;
+    width: 99% !important;
+}
+.aboutus-section3-circle {
+    background: transparent;
+    border: 1px solid #7A7A7A;
+    opacity: 1;
+    border-radius: 50%;
+    width: 196px;
+    height: 196px;
+    text-align: center;
+    margin: 11px 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+}
+.aboutus-section2-heading {
+    text-align: center;
+    font: normal normal 600 36px/54px Poppins, sans-serif;
+    color: #F15A25;
+    opacity: 1;
+    margin-top: 40px;
+}
+.aboutus-section2-subheading {
+    text-align: center;
+    font: normal normal medium 18px/27px Poppins, sans-serif;
+    color: #667085;
+    opacity: 1;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+.aboutus-section4-second-image {
+    position: absolute;
+    left: 14%;
+    top: 112%;
+    transform: translateY(-50%);
+    width: auto;
+    max-width: 300px;
+}
+.aboutus-section2-card-heading {
+    text-align: left;
+    font: normal normal 600 46px/54px Poppins;
+    letter-spacing: 0px;
+    color: #0C141D;
+    opacity: 1;
+    margin-left: 26px;
+}
+.aboutus-section3-circle-container {
+  
+    width: 100%;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+    
+}
+
+
+@media (max-width:1000px){
+    .aboutus-section2-card{
+        width:99% !important;
+    }
+
+}
